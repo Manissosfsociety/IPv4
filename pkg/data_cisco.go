@@ -8045,6 +8045,50 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Management1/1", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "CSF220-ASA-K9": {
+        Manufacturer: "Cisco",
+        Model: "CSF220-ASA-K9",
+        Slug: "cisco-csf220-asa-k9",
+        UHeight: 1,
+        PartNumber: "CSF220-ASA-K9",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 1.17,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Console", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb", Type: "usb-c", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 20, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Ethernet1/5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "Management1/1", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "CTI-2210-VCR": {
         Manufacturer: "Cisco",
         Model: "CTI-2210-VCR",
@@ -19502,11 +19546,78 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "WS-C3650-24TD-L",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "front-to-rear",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 6.87,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU1", Label: "", Position: "1" },
+            { Name: "PSU2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet0/0", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "GigabitEthernet1/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/19", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/20", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/21", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/22", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/23", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/0/24", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet1/1/1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet1/1/2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "TenGigabitEthernet1/1/3", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "TenGigabitEthernet1/1/4", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "Catalyst 3650-24TD-S": {
+        Manufacturer: "Cisco",
+        Model: "Catalyst 3650-24TD-S",
+        Slug: "cisco-ws-c3650-24td-s",
+        UHeight: 1,
+        PartNumber: "WS-C3650-24TD-S",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 6.87,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -27255,6 +27366,48 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "GigabitEthernet0/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "TenGigabitEthernet0/0/4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "TenGigabitEthernet0/0/5", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "Catalyst 8355-G2": {
+        Manufacturer: "Cisco",
+        Model: "Catalyst 8355-G2",
+        Slug: "cisco-c8355-g2",
+        UHeight: 1,
+        PartNumber: "C8355-G2",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.2,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "SM 1", Label: "", Position: "1" },
+            { Name: "NIM 1", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet0/0/0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/3", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "Catalyst 8500-12X": {
@@ -40692,6 +40845,55 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "GigabitEthernet0/1/7", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "ISR 1121X-8PLTEP": {
+        Manufacturer: "Cisco",
+        Model: "ISR 1121X-8PLTEP",
+        Slug: "cisco-c1121x-8pltep",
+        UHeight: 1,
+        PartNumber: "C1121X-8PLTEP",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.58,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
+            { Name: "usb", Type: "usb-micro-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU0", Label: "", Type: "dc-terminal", MaximumDraw: 20, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Cellular", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet0/0/0", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GigabitEthernet0/0/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1/0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet0/1/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "ISR 1127-8PLTEP": {
         Manufacturer: "Cisco",
         Model: "ISR 1127-8PLTEP",
@@ -45683,7 +45885,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         PartNumber: "MS225-48FP-HW",
         IsFullDepth: false,
         Airflow: "",
-        FrontImage: false,
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
         Weight: 0,
@@ -45775,7 +45977,7 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
         PartNumber: "MS225-48LP-HW",
         IsFullDepth: false,
         Airflow: "",
-        FrontImage: false,
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
         Weight: 0,
@@ -47736,6 +47938,91 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "Port 8", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Port 9", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "Port 10", Label: "", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "Meraki Z4": {
+        Manufacturer: "Cisco",
+        Model: "Meraki Z4",
+        Slug: "cisco-meraki-z4",
+        UHeight: 0,
+        PartNumber: "Z4-HW",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.39,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "", Type: "dc-terminal", MaximumDraw: 42, AllocatedDraw: 11 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Internet 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
+    "Meraki Z4C": {
+        Manufacturer: "Cisco",
+        Model: "Meraki Z4C",
+        Slug: "cisco-meraki-z4c",
+        UHeight: 0,
+        PartNumber: "Z4C-HW",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.39,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC", Label: "", Type: "dc-terminal", MaximumDraw: 42, AllocatedDraw: 11 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Internet 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "Cellular", Label: "", Type: "lte", MgmtOnly: false },
         },
     },
     "N2K-C2232PP-10GE": {
@@ -53417,6 +53704,99 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "mgmt0", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "Nexus 93180YC-FX3H": {
+        Manufacturer: "Cisco",
+        Model: "Nexus 93180YC-FX3H",
+        Slug: "cisco-n9k-c93180yc-fx3h",
+        UHeight: 1,
+        PartNumber: "N9K-C93180YC-FX3H",
+        IsFullDepth: true,
+        Airflow: "rear-to-front",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 9.52,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "console", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PS1", Label: "", Position: "1" },
+            { Name: "PS2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Ethernet1/1", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/2", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/3", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/4", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/5", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/6", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/7", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/8", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/9", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/10", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/11", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/12", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/13", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/14", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/15", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/16", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/17", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/18", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/19", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/20", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/21", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/22", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/23", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/24", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/25", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/26", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/27", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/28", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/29", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/30", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/31", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/32", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/33", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/34", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/35", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/36", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/37", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/38", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/39", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/40", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/41", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/42", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/43", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/44", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/45", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/46", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/47", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/48", Label: "", Type: "25gbase-x-sfp28", MgmtOnly: false },
+            { Name: "Ethernet1/49", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "Ethernet1/50", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "Ethernet1/51", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "Ethernet1/52", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "Ethernet1/53", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "Ethernet1/54", Label: "", Type: "100gbase-x-qsfp28", MgmtOnly: false },
+            { Name: "mgmt0", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "Nexus 93180YC-FX3S": {
         Manufacturer: "Cisco",
         Model: "Nexus 93180YC-FX3S",
@@ -56479,6 +56859,50 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "GigabitEthernet2", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "GigabitEthernet1/1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
             { Name: "GigabitEthernet1/2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
+    "SG200-08": {
+        Manufacturer: "Cisco",
+        Model: "SG200-08",
+        Slug: "cisco-sg200-08",
+        UHeight: 1,
+        PartNumber: "SLM2008T",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.75,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "External PS", Label: "", Type: "dc-terminal", MaximumDraw: 7, AllocatedDraw: 7 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GigabitEthernet1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GigabitEthernet8", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
     "SG200-18": {

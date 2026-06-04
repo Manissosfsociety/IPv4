@@ -2,6 +2,43 @@
 package devices
 
 var DeviceTypesMapapc = map[string]*DeviceData{
+    "ACF202BLK": {
+        Manufacturer: "APC",
+        Model: "ACF202BLK",
+        Slug: "apc-acf202blk",
+        UHeight: 2,
+        PartNumber: "ACF202BLK",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 14.55,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Source A", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Source B", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "AP4421": {
         Manufacturer: "APC",
         Model: "AP4421",
@@ -641,6 +678,54 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "Management", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "AP4434": {
+        Manufacturer: "APC",
+        Model: "AP4434",
+        Slug: "apc-ap4434",
+        UHeight: 1,
+        PartNumber: "AP4434",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 3.74,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "rj-12", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Source A", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Source B", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet 1", Type: "iec-60320-c19", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 2", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 3", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 4", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 5", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 6", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 7", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 8", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 9", Type: "iec-60320-c13", Label: "", PowerPort: "", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Management", Label: "", Type: "100base-tx", MgmtOnly: true },
         },
     },
     "AP4434A": {
@@ -6422,6 +6507,49 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
+        },
+    },
+    "SRTL2K2RM1UINC": {
+        Manufacturer: "APC",
+        Model: "SRTL2K2RM1UINC",
+        Slug: "apc-srtl2k2rm1uinc",
+        UHeight: 1,
+        PartNumber: "SRTL2K2RM1UINC",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 15.9,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "usb-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Input", Label: "", Type: "iec-60320-c20", MaximumDraw: 2200, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "C13-1", Type: "iec-60320-c13", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "C13-2", Type: "iec-60320-c13", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "C13-3", Type: "iec-60320-c13", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "C19-1", Type: "iec-60320-c19", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "C19-2", Type: "iec-60320-c19", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Network", Label: "", Type: "100base-tx", MgmtOnly: true },
         },
     },
     "SUA1500RMI2U": {

@@ -317,6 +317,43 @@ var DeviceTypesMapdell = map[string]*DeviceData{
             { Name: "NIC", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "OptiPlex SFF 7010": {
+        Manufacturer: "Dell",
+        Model: "OptiPlex SFF 7010",
+        Slug: "dell-optiplex-sff-7010",
+        UHeight: 2,
+        PartNumber: "4PS9N04",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 3.68,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 260, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "PowerConnect 3548p": {
         Manufacturer: "Dell",
         Model: "PowerConnect 3548p",
@@ -1503,6 +1540,123 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
+        },
+    },
+    "PowerEdge M620": {
+        Manufacturer: "Dell",
+        Model: "PowerEdge M620",
+        Slug: "dell-poweredge-m620",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Slot A bNDC", Label: "", Position: "A" },
+            { Name: "Slot B Mezzanine", Label: "", Position: "B" },
+            { Name: "Slot C Mezzanine", Label: "", Position: "C" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iDRAC", Label: "", Type: "1000base-kx", MgmtOnly: true },
+        },
+    },
+    "PowerEdge M630": {
+        Manufacturer: "Dell",
+        Model: "PowerEdge M630",
+        Slug: "dell-poweredge-m630",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Slot A bNDC", Label: "", Position: "A" },
+            { Name: "Slot B Mezzanine", Label: "", Position: "B" },
+            { Name: "Slot C Mezzanine", Label: "", Position: "C" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iDRAC", Label: "", Type: "1000base-kx", MgmtOnly: true },
+        },
+    },
+    "PowerEdge M640": {
+        Manufacturer: "Dell",
+        Model: "PowerEdge M640",
+        Slug: "dell-poweredge-m640",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "child",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "Slot A bNDC", Label: "", Position: "A" },
+            { Name: "Slot B Mezzanine", Label: "", Position: "B" },
+            { Name: "Slot C Mezzanine", Label: "", Position: "C" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iDRAC", Label: "", Type: "1000base-kx", MgmtOnly: true },
         },
     },
     "PowerEdge MX7000": {
@@ -3891,6 +4045,54 @@ var DeviceTypesMapdell = map[string]*DeviceData{
             { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "PowerEdge R770": {
+        Manufacturer: "Dell",
+        Model: "PowerEdge R770",
+        Slug: "dell-poweredge-r770",
+        UHeight: 2,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 32,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Front USB Console", Type: "usb-a", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU-1", Label: "1", Position: "PSU-1" },
+            { Name: "PSU-2", Label: "2", Position: "PSU-2" },
+            { Name: "NUMA 0 - OCP slot 1", Label: "", Position: "OCP-1" },
+            { Name: "NUMA 0 - PCIe slot 1 - FH", Label: "1", Position: "PCIe-1" },
+            { Name: "NUMA 0 - PCIe slot 2 - FH", Label: "2", Position: "PCIe-2" },
+            { Name: "NUMA 0 - PCIe slot 3 - LP", Label: "3", Position: "PCIe-3" },
+            { Name: "NUMA 0 - PCIe slot 4 - FH", Label: "4", Position: "PCIe-4" },
+            { Name: "NUMA 1 - PCIe slot 5 - FH", Label: "5", Position: "PCIe-5" },
+            { Name: "NUMA 1 - PCIe slot 6 - LP", Label: "6", Position: "PCIe-6" },
+            { Name: "NUMA 1 - PCIe slot 7 - FH", Label: "7", Position: "PCIe-7" },
+            { Name: "NUMA 1 - PCIe slot 8 - FH", Label: "8", Position: "PCIe-8" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "PowerEdge R7715": {
         Manufacturer: "Dell",
         Model: "PowerEdge R7715",
@@ -4354,6 +4556,47 @@ var DeviceTypesMapdell = map[string]*DeviceData{
             { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "PowerEdge T350": {
+        Manufacturer: "Dell",
+        Model: "PowerEdge T350",
+        Slug: "dell-poweredge-t350",
+        UHeight: 5,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 19.54,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU 1", Label: "", Position: "1" },
+            { Name: "PSU 2", Label: "", Position: "2" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "PowerEdge T420": {
         Manufacturer: "Dell",
         Model: "PowerEdge T420",
@@ -4559,6 +4802,52 @@ var DeviceTypesMapdell = map[string]*DeviceData{
             { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "PowerEdge VRTX": {
+        Manufacturer: "Dell",
+        Model: "PowerEdge VRTX",
+        Slug: "dell-poweredge-vrtx",
+        UHeight: 5,
+        PartNumber: "",
+        IsFullDepth: true,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "parent",
+        Weight: 0,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Rear Serial", Type: "de-9", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "PSU-1", Label: "1", Position: "PSU-1" },
+            { Name: "PSU-2", Label: "2", Position: "PSU-2" },
+            { Name: "PSU-3", Label: "3", Position: "PSU-3" },
+            { Name: "PSU-4", Label: "4", Position: "PSU-4" },
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Slot 1", Label: "" },
+            { Name: "Slot 2", Label: "" },
+            { Name: "Slot 3", Label: "" },
+            { Name: "Slot 4", Label: "" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "CMC-1", Label: "", Type: "100base-tx", MgmtOnly: true },
+            { Name: "CMC-2", Label: "", Type: "100base-tx", MgmtOnly: true },
+        },
+    },
     "PowerEdge XR7620": {
         Manufacturer: "Dell",
         Model: "PowerEdge XR7620",
@@ -4601,54 +4890,6 @@ var DeviceTypesMapdell = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
-        },
-    },
-    "PowerEdge-R770": {
-        Manufacturer: "Dell",
-        Model: "PowerEdge-R770",
-        Slug: "dell-poweredge-r770",
-        UHeight: 2,
-        PartNumber: "PowerEdge R770",
-        IsFullDepth: true,
-        Airflow: "front-to-rear",
-        FrontImage: false,
-        RearImage: false,
-        SubdeviceRole: "",
-        Weight: 32,
-        WeightUnit: "",
-        IsPowered: false,
-        ConsolePorts: []ConsolePort{
-            { Name: "Front USB Console", Type: "usb-a", Label: "", Poe: false },
-        },
-        ConsoleServerPorts: []ConsoleServerPort{
-        },
-        PowerPorts: []PowerPort{
-        },
-        PowerOutlets: []PowerOutlet{
-        },
-        FrontPorts: []FrontPort{
-        },
-        RearPorts: []RearPort{
-        },
-        ModuleBays: []ModuleBay{
-            { Name: "PSU-1", Label: "1", Position: "PSU-1" },
-            { Name: "PSU-2", Label: "2", Position: "PSU-2" },
-            { Name: "NUMA 0 - OCP slot 1", Label: "", Position: "OCP-1" },
-            { Name: "NUMA 0 - PCIe slot 1 - FH", Label: "1", Position: "PCIe-1" },
-            { Name: "NUMA 0 - PCIe slot 2 - FH", Label: "2", Position: "PCIe-2" },
-            { Name: "NUMA 0 - PCIe slot 3 - LP", Label: "3", Position: "PCIe-3" },
-            { Name: "NUMA 0 - PCIe slot 4 - FH", Label: "4", Position: "PCIe-4" },
-            { Name: "NUMA 1 - PCIe slot 5 - FH", Label: "5", Position: "PCIe-5" },
-            { Name: "NUMA 1 - PCIe slot 6 - LP", Label: "6", Position: "PCIe-6" },
-            { Name: "NUMA 1 - PCIe slot 7 - FH", Label: "7", Position: "PCIe-7" },
-            { Name: "NUMA 1 - PCIe slot 8 - FH", Label: "8", Position: "PCIe-8" },
-        },
-			  DeviceBays: []DeviceBay{
-        },
-        InventoryItems: []InventoryItem{
-        },
-        Interfaces: []Interface{
             { Name: "iDRAC", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
